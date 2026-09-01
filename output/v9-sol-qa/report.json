@@ -1,0 +1,1358 @@
+{
+  "report": {
+    "assetCounts": [
+      {
+        "name": "v9-rail",
+        "count": 1
+      },
+      {
+        "name": "v9-combat",
+        "count": 5
+      },
+      {
+        "name": "v9-traversal",
+        "count": 29
+      },
+      {
+        "name": "v9-reactions",
+        "count": 13
+      },
+      {
+        "name": "v9-world",
+        "count": 19
+      }
+    ],
+    "clipCount": 67,
+    "rootMotion": [
+      {
+        "key": "run",
+        "raw": {
+          "start": {
+            "x": 0.0036,
+            "z": 0.0042
+          },
+          "end": {
+            "x": 0.0036,
+            "z": 1.6775
+          },
+          "range": {
+            "x": 0.00676,
+            "z": 1.67328
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "sprint",
+        "raw": {
+          "start": {
+            "x": -0.0032,
+            "z": 0.0039
+          },
+          "end": {
+            "x": -0.0032,
+            "z": 1.6771
+          },
+          "range": {
+            "x": 0.00707,
+            "z": 1.67328
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "combatHook",
+        "raw": {
+          "start": {
+            "x": 0.0029,
+            "z": -0.0082
+          },
+          "end": {
+            "x": 0.0029,
+            "z": -0.0082
+          },
+          "range": {
+            "x": 0.04338,
+            "z": 0.04994
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "combatHeavyKick",
+        "raw": {
+          "start": {
+            "x": 0.0064,
+            "z": -0.0024
+          },
+          "end": {
+            "x": 0.0064,
+            "z": -0.0024
+          },
+          "range": {
+            "x": 0.08499,
+            "z": 0.27037
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "combatUppercut",
+        "raw": {
+          "start": {
+            "x": 0.0545,
+            "z": 0.7309
+          },
+          "end": {
+            "x": -0.0148,
+            "z": 0.6147
+          },
+          "range": {
+            "x": 0.14113,
+            "z": 0.28412
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "vault",
+        "raw": {
+          "start": {
+            "x": 0.0021,
+            "z": -0.0013
+          },
+          "end": {
+            "x": -0.0004,
+            "z": 3.2931
+          },
+          "range": {
+            "x": 0.19502,
+            "z": 3.29433
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "wallRun",
+        "raw": {
+          "start": {
+            "x": 0.0003,
+            "z": 0.002
+          },
+          "end": {
+            "x": -0.8807,
+            "z": 0.8946
+          },
+          "range": {
+            "x": 0.98539,
+            "z": 0.89257
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "wallFlip",
+        "raw": {
+          "start": {
+            "x": 0.0003,
+            "z": 0.002
+          },
+          "end": {
+            "x": 0.0361,
+            "z": 0.154
+          },
+          "range": {
+            "x": 0.05639,
+            "z": 0.91944
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "jumpIdle",
+        "raw": {
+          "start": {
+            "x": 0.0036,
+            "z": -0.0085
+          },
+          "end": {
+            "x": 0.0036,
+            "z": -0.0085
+          },
+          "range": {
+            "x": 0.12129,
+            "z": 0.07629
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "runJump",
+        "raw": {
+          "start": {
+            "x": -0.0028,
+            "z": 0.0009
+          },
+          "end": {
+            "x": -0.0016,
+            "z": 2.3011
+          },
+          "range": {
+            "x": 0.02833,
+            "z": 2.30026
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "railGrind",
+        "raw": {
+          "start": {
+            "x": 0.0034,
+            "z": -0.0071
+          },
+          "end": {
+            "x": 0.0034,
+            "z": -0.0071
+          },
+          "range": {
+            "x": 0.0423,
+            "z": 0.0367
+          }
+        },
+        "prepared": {
+          "start": {
+            "x": 0,
+            "z": 0
+          },
+          "end": {
+            "x": 0,
+            "z": 0
+          },
+          "range": {
+            "x": 0,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "profiles": {
+      "jab": {
+        "kind": "light1",
+        "duration": 0.96,
+        "hitWindow": [
+          0.43,
+          0.59
+        ],
+        "contacts": null,
+        "projectile": false,
+        "animation": "combatHook",
+        "timeScale": 1.111,
+        "reaction": "hook",
+        "hitRegion": "head"
+      },
+      "kick": {
+        "kind": "heavy",
+        "duration": 1.3,
+        "hitWindow": [
+          0.45,
+          0.64
+        ],
+        "contacts": null,
+        "projectile": false,
+        "animation": "combatHeavyKick",
+        "timeScale": 1.564,
+        "reaction": "head",
+        "hitRegion": "head"
+      },
+      "shoulder": {
+        "kind": "flyingShoulder",
+        "duration": 2.28,
+        "hitWindow": [
+          0.42,
+          0.72
+        ],
+        "contacts": [
+          {
+            "at": 0.45,
+            "reaction": "body",
+            "launch": false
+          },
+          {
+            "at": 0.67,
+            "reaction": "launch",
+            "launch": true
+          }
+        ],
+        "projectile": false,
+        "animation": "flyingShoulderThrow",
+        "timeScale": 1.623,
+        "reaction": "body",
+        "hitRegion": "body"
+      },
+      "handstand": {
+        "kind": "handstandSpin",
+        "duration": 1.52,
+        "hitWindow": [
+          0.36,
+          0.74
+        ],
+        "contacts": [
+          {
+            "at": 0.4,
+            "reaction": "side",
+            "launch": false
+          },
+          {
+            "at": 0.64,
+            "reaction": "body",
+            "launch": false
+          }
+        ],
+        "projectile": false,
+        "animation": "handstandSpin",
+        "timeScale": 1.382,
+        "reaction": "body",
+        "hitRegion": "body"
+      },
+      "inverted": {
+        "kind": "invertedDouble",
+        "duration": 1.98,
+        "hitWindow": [
+          0.4,
+          0.7
+        ],
+        "contacts": [
+          {
+            "at": 0.43,
+            "reaction": "body",
+            "launch": false
+          },
+          {
+            "at": 0.65,
+            "reaction": "launch",
+            "launch": true
+          }
+        ],
+        "projectile": false,
+        "animation": "invertedDoubleKick",
+        "timeScale": 1.616,
+        "reaction": "launch",
+        "hitRegion": "head"
+      },
+      "auraShot": {
+        "kind": "auraShot",
+        "duration": 1.24,
+        "hitWindow": [
+          0.5,
+          0.7
+        ],
+        "contacts": null,
+        "projectile": true,
+        "animation": "auraShot",
+        "timeScale": 1.317,
+        "reaction": "side",
+        "hitRegion": "body"
+      }
+    },
+    "combatContinuity": {
+      "kind": "heavy",
+      "maxFrameStep": 0.07,
+      "assistApplied": 0.8598,
+      "assistPeakStep": 0.07,
+      "samples": [
+        {
+          "x": -0.03,
+          "y": 0,
+          "z": 5.94
+        },
+        {
+          "x": -0.07,
+          "y": 0,
+          "z": 5.88
+        },
+        {
+          "x": -0.1,
+          "y": 0,
+          "z": 5.82
+        },
+        {
+          "x": -0.14,
+          "y": 0,
+          "z": 5.76
+        },
+        {
+          "x": -0.17,
+          "y": 0,
+          "z": 5.69
+        },
+        {
+          "x": -0.2,
+          "y": 0,
+          "z": 5.63
+        },
+        {
+          "x": -0.24,
+          "y": 0,
+          "z": 5.57
+        },
+        {
+          "x": -0.27,
+          "y": 0,
+          "z": 5.51
+        },
+        {
+          "x": -0.3,
+          "y": 0,
+          "z": 5.46
+        },
+        {
+          "x": -0.32,
+          "y": 0,
+          "z": 5.43
+        },
+        {
+          "x": -0.33,
+          "y": 0,
+          "z": 5.4
+        },
+        {
+          "x": -0.35,
+          "y": 0,
+          "z": 5.37
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "z": 5.35
+        },
+        {
+          "x": -0.37,
+          "y": 0,
+          "z": 5.33
+        },
+        {
+          "x": -0.38,
+          "y": 0,
+          "z": 5.31
+        },
+        {
+          "x": -0.39,
+          "y": 0,
+          "z": 5.3
+        },
+        {
+          "x": -0.4,
+          "y": 0,
+          "z": 5.28
+        },
+        {
+          "x": -0.4,
+          "y": 0,
+          "z": 5.27
+        },
+        {
+          "x": -0.41,
+          "y": 0,
+          "z": 5.27
+        },
+        {
+          "x": -0.41,
+          "y": 0,
+          "z": 5.26
+        },
+        {
+          "x": -0.41,
+          "y": 0,
+          "z": 5.26
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        }
+      ]
+    },
+    "camera": {
+      "combat": {
+        "position": {
+          "x": -0.41,
+          "y": 3.02,
+          "z": 11.74
+        },
+        "forward": {
+          "x": 0,
+          "y": -0.26,
+          "z": -0.96
+        },
+        "yaw": 0,
+        "player": {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        "hangNormal": null,
+        "animation": {
+          "key": "combatHeavyKick",
+          "time": 1.147,
+          "duration": 2.033,
+          "weight": 1,
+          "paused": false
+        }
+      },
+      "jump": {
+        "position": {
+          "x": -0.42,
+          "y": 3.02,
+          "z": 11.75
+        },
+        "forward": {
+          "x": 0,
+          "y": -0.26,
+          "z": -0.96
+        },
+        "yaw": 0,
+        "player": {
+          "x": -0.42,
+          "y": 0.62,
+          "z": 5.25
+        },
+        "hangNormal": null,
+        "animation": {
+          "key": "jumpIdle",
+          "time": 0.333,
+          "duration": 1.9,
+          "weight": 1,
+          "paused": false
+        }
+      }
+    },
+    "sequences": {
+      "JJJ": [
+        "light1",
+        "light2",
+        "light3"
+      ],
+      "JJJJ": [
+        "light1",
+        "light2",
+        "light3",
+        "spinHigh"
+      ],
+      "JKJ": [
+        "light1",
+        "bodyBlow",
+        "handstandSpin"
+      ],
+      "KJJ": [
+        "heavy",
+        "launcher",
+        "flyingShoulder"
+      ],
+      "KKJ": [
+        "heavy",
+        "spinHigh",
+        "handstandSpin"
+      ],
+      "KKK": [
+        "heavy",
+        "spinHigh",
+        "invertedDouble"
+      ],
+      "KJK": [
+        "heavy",
+        "launcher",
+        "comboKnockback"
+      ],
+      "JKK": [
+        "light1",
+        "bodyBlow",
+        "invertedDouble"
+      ],
+      "JJKK": [
+        "light1",
+        "light2",
+        "comboKnockback",
+        "aerialHeavy"
+      ]
+    },
+    "jumpUpOnly": {
+      "animation": {
+        "key": "jumpIdle",
+        "previous": "combatFlyingKick",
+        "normalized": 0.175,
+        "weight": 1,
+        "timeScale": 1.85,
+        "transitionCount": 37,
+        "transitionReason": "play:jumpIdle",
+        "transitionAge": 0.18
+      },
+      "jump": 0.187,
+      "motion": "v9Jump",
+      "controls": {
+        "contextJump": "Space",
+        "jumpUpOnly": "Digit0 / Numpad0"
+      }
+    },
+    "playerReaction": {
+      "hit": {
+        "position": {
+          "x": -0.42,
+          "y": 0,
+          "z": 5.25
+        },
+        "forward": {
+          "x": -0.49,
+          "y": 0,
+          "z": -0.87
+        },
+        "health": 4,
+        "maxHealth": 6,
+        "aura": 0,
+        "auraState": "LOW PROFILE",
+        "score": 0,
+        "combo": 0,
+        "momentum": {
+          "value": 0.03,
+          "state": "ground"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": {
+          "id": 0,
+          "role": "RUSHER",
+          "distance": 0.86,
+          "state": "INVESTIGATE"
+        },
+        "animation": {
+          "key": "bodyBlowFall",
+          "previous": "landFeet",
+          "normalized": 0,
+          "weight": 1,
+          "timeScale": 1.85,
+          "transitionCount": 39,
+          "transitionReason": "play:bodyBlowFall",
+          "transitionAge": 0
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": null,
+        "reaction": {
+          "state": "down",
+          "animation": "bodyBlowFall",
+          "getUpIn": 1.13
+        },
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "getUp": {
+        "key": "getUpFaceDown",
+        "previous": "fightStance",
+        "normalized": 0.053,
+        "weight": 1,
+        "timeScale": 1.85,
+        "transitionCount": 41,
+        "transitionReason": "play:getUpFaceDown",
+        "transitionAge": 0.067
+      }
+    },
+    "enemyReactions": {
+      "hook": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -0.59,
+          "y": 0,
+          "z": 4.87
+        },
+        "distance": 1.31,
+        "hp": 2.15,
+        "stance": 1.95,
+        "state": "HIT",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "hitHook",
+        "reaction": "hook"
+      },
+      "body": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -0.61,
+          "y": 0,
+          "z": 4.83
+        },
+        "distance": 1.35,
+        "hp": 1.73,
+        "stance": 1.25,
+        "state": "HIT",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "hitBody",
+        "reaction": "body"
+      },
+      "launch": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -0.64,
+          "y": 0,
+          "z": 4.77
+        },
+        "distance": 1.42,
+        "hp": 1.94,
+        "stance": 0.15,
+        "state": "KNOCKDOWN",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "uppercutFall",
+        "reaction": "launch"
+      },
+      "getUp": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -0.64,
+          "y": 0,
+          "z": 4.77
+        },
+        "distance": 1.42,
+        "hp": 1.94,
+        "stance": 0.15,
+        "state": "RECOVER",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": false,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "getUp",
+        "reaction": "launch"
+      },
+      "handstand": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -0.98,
+          "y": 0,
+          "z": 4.16
+        },
+        "distance": 2.12,
+        "hp": 1.79,
+        "stance": 0.75,
+        "state": "HIT",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "hitBody",
+        "reaction": "body"
+      },
+      "shoulder": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -1.12,
+          "y": 0,
+          "z": 3.9
+        },
+        "distance": 2.42,
+        "hp": 0.75,
+        "stance": 0.06,
+        "state": "KNOCKDOWN",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "uppercutFall",
+        "reaction": "launch"
+      },
+      "inverted": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -1.31,
+          "y": 0,
+          "z": 4.07
+        },
+        "distance": 2.37,
+        "hp": 1.21,
+        "stance": 0.3,
+        "state": "KNOCKDOWN",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "uppercutFall",
+        "reaction": "launch"
+      },
+      "auraShot": {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -1.1,
+          "y": 0,
+          "z": 4.54
+        },
+        "distance": 1.87,
+        "hp": 1.94,
+        "stance": 1.6,
+        "state": "HIT",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "hitBody",
+        "reaction": "side"
+      }
+    },
+    "rail": {
+      "start": null,
+      "grinding": {
+        "rail": {
+          "progress": 0.185,
+          "speed": 6.4
+        },
+        "animation": {
+          "key": "railGrind",
+          "previous": "idle",
+          "normalized": 0,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 65,
+          "transitionReason": "play:railGrind",
+          "transitionAge": 0
+        }
+      },
+      "hop": {
+        "motion": "v9RailJump",
+        "airMotion": "v9RailJump",
+        "height": 0.82
+      },
+      "rejoin": {
+        "rail": {
+          "progress": 0.393,
+          "speed": 6.4
+        },
+        "animation": {
+          "key": "railGrind",
+          "previous": "idle",
+          "normalized": 0.047,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 69,
+          "transitionReason": "play:railGrind",
+          "transitionAge": 0.066
+        }
+      }
+    },
+    "superReactions": {
+      "start": "playerHit",
+      "uppercut": "uppercutReaction",
+      "throw": "throwVictim"
+    },
+    "contexts": {
+      "push": {
+        "type": "v9World",
+        "label": "[E] PUSH CRATE",
+        "score": 60.6,
+        "hangStyle": null,
+        "contactDirection": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        }
+      },
+      "stairs": {
+        "type": "v9Stairs",
+        "label": "[E] ASCEND STAIRS",
+        "score": 92,
+        "hangStyle": null,
+        "contactDirection": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        }
+      },
+      "bracedHangContext": {
+        "type": "v9HangMount",
+        "label": "[E] JUMP TO BRACED LEDGE",
+        "score": 137.5,
+        "hangStyle": "braced",
+        "contactDirection": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        }
+      },
+      "bracedMount": {
+        "key": "jumpBracedHang",
+        "style": "braced",
+        "braced": true
+      },
+      "bracedHangState": {
+        "top": 1.45,
+        "braced": true,
+        "style": "braced"
+      },
+      "bracedCamera": {
+        "position": {
+          "x": 9.28,
+          "y": 2.46,
+          "z": 5.49
+        },
+        "forward": {
+          "x": 0.14,
+          "y": -0.23,
+          "z": 0.96
+        },
+        "yaw": 0,
+        "player": {
+          "x": 10,
+          "y": 0.33,
+          "z": 10.55
+        },
+        "hangNormal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "animation": {
+          "key": "jumpBracedHang",
+          "time": 0.867,
+          "duration": 1.3,
+          "weight": 1,
+          "paused": true
+        }
+      },
+      "freeHangContext": {
+        "type": "v9HangMount",
+        "label": "[E] JUMP TO FREE HANG",
+        "score": 135.5,
+        "hangStyle": "free",
+        "contactDirection": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        }
+      },
+      "freeMount": {
+        "key": "standJumpFreeHang",
+        "style": "free",
+        "braced": false
+      },
+      "freeHangState": {
+        "top": 2.14,
+        "braced": false,
+        "style": "free"
+      },
+      "freeCamera": {
+        "position": {
+          "x": 13.28,
+          "y": 3.02,
+          "z": 0.99
+        },
+        "forward": {
+          "x": 0.14,
+          "y": -0.18,
+          "z": 0.97
+        },
+        "yaw": 0,
+        "player": {
+          "x": 14,
+          "y": 1.02,
+          "z": 6.05
+        },
+        "hangNormal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "animation": {
+          "key": "standJumpFreeHang",
+          "time": 1.134,
+          "duration": 1.7,
+          "weight": 1,
+          "paused": true
+        }
+      },
+      "waistDrop": {
+        "key": "ledgeDropWaist",
+        "dropClass": "waist",
+        "motion": "v9LedgeDrop"
+      },
+      "coverAway": {
+        "key": "coverCrouchAway",
+        "motion": "ground"
+      },
+      "wall": {
+        "anim": "wallKickOff",
+        "motion": "wallFlip",
+        "key": "wallBackflip",
+        "facing": 1,
+        "into": 1
+      },
+      "wallState": {
+        "context": {
+          "type": "wall",
+          "label": "[E] WALL STEP",
+          "score": 110,
+          "hangStyle": null,
+          "contactDirection": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          }
+        },
+        "motion": "wallFlip",
+        "rail": null,
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "offRail",
+          "ready": true,
+          "bufferFor": 0,
+          "progress": 0.5,
+          "speed": 0,
+          "direction": 0,
+          "horizontalError": 25.213,
+          "verticalError": 0.261,
+          "capture": {
+            "source": "rejoin",
+            "at": 43.93417471264299,
+            "horizontal": 0,
+            "vertical": -0.16,
+            "progress": 0.3693488580385391
+          },
+          "cameraClear": true,
+          "cameraBlock": null
+        }
+      }
+    },
+    "integrationAudit": {
+      "clipCount": 67,
+      "projectileKinds": [
+        "auraShot"
+      ],
+      "multiContactKinds": [
+        "invertedDouble",
+        "handstandSpin",
+        "flyingShoulder"
+      ],
+      "hangStyles": [
+        "braced",
+        "free"
+      ],
+      "dropClasses": [
+        "high",
+        "waist"
+      ],
+      "coverAway": true,
+      "superReactions": [
+        "playerHit",
+        "uppercutReaction",
+        "throwVictim"
+      ]
+    },
+    "keyboardJump": {
+      "animation": {
+        "key": "jumpIdle",
+        "previous": "idle",
+        "normalized": 0.234,
+        "weight": 1,
+        "timeScale": 1.85,
+        "transitionCount": 103,
+        "transitionReason": "play:jumpIdle",
+        "transitionAge": 0.24
+      },
+      "jump": 0.25,
+      "motion": "v9Jump",
+      "level": 2
+    }
+  },
+  "errors": []
+}

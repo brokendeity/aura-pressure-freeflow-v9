@@ -1,0 +1,2044 @@
+{
+  "errors": [],
+  "ground": {
+    "before": {
+      "version": "Freeflow 9.0",
+      "mode": "combat",
+      "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+      "level": 1,
+      "clock": {
+        "game": 26.546,
+        "music": 6.832,
+        "deterministic": true,
+        "frames": 14
+      },
+      "player": {
+        "position": {
+          "x": -4.84,
+          "y": 0,
+          "z": 6.91
+        },
+        "forward": {
+          "x": 0.05,
+          "y": 0,
+          "z": -1
+        },
+        "health": 6,
+        "maxHealth": 6,
+        "aura": 0,
+        "auraState": "LOW PROFILE",
+        "score": 0,
+        "combo": 0,
+        "momentum": {
+          "value": 0.31,
+          "state": "ground"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": null,
+        "animation": {
+          "key": "run",
+          "previous": "idle",
+          "normalized": 0.3,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 1,
+          "transitionReason": "play:run",
+          "transitionAge": 0.224
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": null,
+        "reaction": null,
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "director": {
+        "difficulty": "KNOWN NAME",
+        "beat": 13,
+        "squadNerve": 1,
+        "breathingFor": 0,
+        "threats": {
+          "melee": 0,
+          "ranged": 0
+        },
+        "primaryThreat": null
+      },
+      "encounter": {
+        "index": 0,
+        "name": "READ THE ROOM",
+        "active": true,
+        "living": 2
+      },
+      "runStats": {
+        "perfectHits": 0,
+        "perfectDodges": 0,
+        "damageTaken": 0,
+        "highestAura": 0,
+        "longestChain": 0
+      },
+      "enemies": [
+        {
+          "id": 0,
+          "role": "RUSHER",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          },
+          "distance": 9.91,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "IDLE",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "look",
+          "reaction": null
+        },
+        {
+          "id": 1,
+          "role": "RUSHER",
+          "position": {
+            "x": 4.71,
+            "y": 0,
+            "z": -3.45
+          },
+          "distance": 14.09,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "PATROL",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "walk",
+          "reaction": null
+        }
+      ],
+      "traversal": {
+        "context": {
+          "type": "v9Rail",
+          "label": "[E] GRIND RAIL",
+          "score": 75.6,
+          "hangStyle": null,
+          "contactDirection": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          }
+        },
+        "motion": null,
+        "rail": null,
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "offRail",
+          "ready": true,
+          "bufferFor": 0,
+          "progress": 0.28,
+          "speed": 0,
+          "direction": 0,
+          "horizontalError": 1.088,
+          "verticalError": -0.16,
+          "capture": null,
+          "cameraClear": true,
+          "cameraBlock": null
+        }
+      },
+      "overlays": {
+        "menu": false,
+        "pause": false,
+        "death": false,
+        "results": false
+      },
+      "qaTrace": null
+    },
+    "mount": {
+      "version": "Freeflow 9.0",
+      "mode": "combat",
+      "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+      "level": 1,
+      "clock": {
+        "game": 26.626,
+        "music": 6.912,
+        "deterministic": true,
+        "frames": 19
+      },
+      "player": {
+        "position": {
+          "x": -4.84,
+          "y": 0,
+          "z": 7.1
+        },
+        "forward": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        "health": 6,
+        "maxHealth": 6,
+        "aura": 0,
+        "auraState": "LOW PROFILE",
+        "score": 0,
+        "combo": 0,
+        "momentum": {
+          "value": 0.56,
+          "state": "traversal"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": null,
+        "animation": {
+          "key": "railGrind",
+          "previous": "run",
+          "normalized": 0.057,
+          "weight": 0.8,
+          "timeScale": 1,
+          "transitionCount": 2,
+          "transitionReason": "play:railGrind",
+          "transitionAge": 0.08
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": null,
+        "reaction": null,
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "director": {
+        "difficulty": "KNOWN NAME",
+        "beat": 13,
+        "squadNerve": 1,
+        "breathingFor": 0,
+        "threats": {
+          "melee": 0,
+          "ranged": 0
+        },
+        "primaryThreat": null
+      },
+      "encounter": {
+        "index": 0,
+        "name": "READ THE ROOM",
+        "active": true,
+        "living": 2
+      },
+      "runStats": {
+        "perfectHits": 0,
+        "perfectDodges": 0,
+        "damageTaken": 0,
+        "highestAura": 0,
+        "longestChain": 0
+      },
+      "enemies": [
+        {
+          "id": 0,
+          "role": "RUSHER",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          },
+          "distance": 10.1,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "IDLE",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "look",
+          "reaction": null
+        },
+        {
+          "id": 1,
+          "role": "RUSHER",
+          "position": {
+            "x": 4.58,
+            "y": 0,
+            "z": -3.43
+          },
+          "distance": 14.13,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "PATROL",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "walk",
+          "reaction": null
+        }
+      ],
+      "traversal": {
+        "context": {
+          "type": "v9Rail",
+          "label": "[E] GRIND RAIL",
+          "score": 88.9,
+          "hangStyle": null,
+          "contactDirection": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          }
+        },
+        "motion": "v9RailMount",
+        "rail": null,
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "railMount",
+          "ready": true,
+          "bufferFor": 0,
+          "progress": 0.28,
+          "speed": 0,
+          "direction": 1,
+          "horizontalError": 0.897,
+          "verticalError": -0.16,
+          "capture": {
+            "source": "ground",
+            "at": 26.545999999999992,
+            "horizontal": 1.087899999999994,
+            "vertical": -0.16,
+            "progress": 0.28
+          },
+          "cameraClear": false,
+          "cameraBlock": null
+        }
+      },
+      "overlays": {
+        "menu": false,
+        "pause": false,
+        "death": false,
+        "results": false
+      },
+      "qaTrace": null
+    },
+    "grind": {
+      "version": "Freeflow 9.0",
+      "mode": "combat",
+      "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+      "level": 1,
+      "clock": {
+        "game": 26.986,
+        "music": 7.272,
+        "deterministic": true,
+        "frames": 41
+      },
+      "player": {
+        "position": {
+          "x": -4,
+          "y": 0,
+          "z": 8
+        },
+        "forward": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        "health": 6,
+        "maxHealth": 6,
+        "aura": 0.1,
+        "auraState": "LOW PROFILE",
+        "score": 2,
+        "combo": 0,
+        "momentum": {
+          "value": 0.9,
+          "state": "rail"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": null,
+        "animation": {
+          "key": "railGrind",
+          "previous": "idle",
+          "normalized": 0.082,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 4,
+          "transitionReason": "play:railGrind",
+          "transitionAge": 0.115
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": null,
+        "reaction": null,
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "director": {
+        "difficulty": "KNOWN NAME",
+        "beat": 14,
+        "squadNerve": 1,
+        "breathingFor": 0,
+        "threats": {
+          "melee": 0,
+          "ranged": 0
+        },
+        "primaryThreat": null
+      },
+      "encounter": {
+        "index": 0,
+        "name": "READ THE ROOM",
+        "active": true,
+        "living": 2
+      },
+      "runStats": {
+        "perfectHits": 0,
+        "perfectDodges": 0,
+        "damageTaken": 0,
+        "highestAura": 0.1,
+        "longestChain": 0
+      },
+      "enemies": [
+        {
+          "id": 0,
+          "role": "RUSHER",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          },
+          "distance": 11.05,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "IDLE",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "look",
+          "reaction": null
+        },
+        {
+          "id": 1,
+          "role": "RUSHER",
+          "position": {
+            "x": 4.4,
+            "y": 0,
+            "z": -3.4
+          },
+          "distance": 14.16,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "WAIT",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "look",
+          "reaction": null
+        }
+      ],
+      "traversal": {
+        "context": null,
+        "motion": null,
+        "rail": {
+          "progress": 0.318,
+          "speed": 6.4
+        },
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "railGrind",
+          "ready": true,
+          "bufferFor": 0,
+          "progress": 0.318,
+          "speed": 6.4,
+          "direction": 1,
+          "horizontalError": 0,
+          "verticalError": -0.16,
+          "capture": {
+            "source": "ground",
+            "at": 26.855090909090883,
+            "horizontal": 0,
+            "vertical": -0.16,
+            "progress": 0.28
+          },
+          "cameraClear": true,
+          "cameraBlock": null
+        }
+      },
+      "overlays": {
+        "menu": false,
+        "pause": false,
+        "death": false,
+        "results": false
+      },
+      "qaTrace": null
+    }
+  },
+  "railHop": {
+    "version": "Freeflow 9.0",
+    "mode": "combat",
+    "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+    "level": 1,
+    "clock": {
+      "game": 27.416,
+      "music": 7.702,
+      "deterministic": true,
+      "frames": 67
+    },
+    "player": {
+      "position": {
+        "x": -1.25,
+        "y": 0.82,
+        "z": 8
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "health": 6,
+      "maxHealth": 6,
+      "aura": 0,
+      "auraState": "LOW PROFILE",
+      "score": 2,
+      "combo": 0,
+      "momentum": {
+        "value": 0.94,
+        "state": "traversal"
+      },
+      "attack": null,
+      "counterFor": 0,
+      "invulnerableFor": 0,
+      "target": null,
+      "animation": {
+        "key": "runJump",
+        "previous": "railGrind",
+        "normalized": 0.478,
+        "weight": 1,
+        "timeScale": 1,
+        "transitionCount": 5,
+        "transitionReason": "play:runJump",
+        "transitionAge": 0.43
+      },
+      "locomotion": {
+        "blendActive": false,
+        "forward": 0,
+        "side": 0,
+        "phase": 0,
+        "weights": {
+          "run": 1,
+          "left": 0,
+          "right": 0
+        },
+        "targetId": null
+      },
+      "jump": null,
+      "reaction": null,
+      "controls": {
+        "contextJump": "Space",
+        "jumpUpOnly": "Digit0 / Numpad0"
+      }
+    },
+    "director": {
+      "difficulty": "KNOWN NAME",
+      "beat": 15,
+      "squadNerve": 1,
+      "breathingFor": 0,
+      "threats": {
+        "melee": 0,
+        "ranged": 0
+      },
+      "primaryThreat": null
+    },
+    "encounter": {
+      "index": 0,
+      "name": "READ THE ROOM",
+      "active": true,
+      "living": 2
+    },
+    "runStats": {
+      "perfectHits": 0,
+      "perfectDodges": 0,
+      "damageTaken": 0,
+      "highestAura": 0.1,
+      "longestChain": 0
+    },
+    "enemies": [
+      {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -4.98,
+          "y": 0,
+          "z": -2.99
+        },
+        "distance": 11.6,
+        "hp": 3,
+        "stance": 2.5,
+        "state": "INVESTIGATE",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": false,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "run",
+        "reaction": null
+      },
+      {
+        "id": 1,
+        "role": "RUSHER",
+        "position": {
+          "x": 4.4,
+          "y": 0,
+          "z": -3.4
+        },
+        "distance": 12.72,
+        "hp": 3,
+        "stance": 2.5,
+        "state": "DETECTED",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "look",
+        "reaction": null
+      }
+    ],
+    "traversal": {
+      "context": null,
+      "motion": "v9RailJump",
+      "rail": null,
+      "hang": null,
+      "cover": null,
+      "surface": null,
+      "carrying": false,
+      "seated": false,
+      "railController": {
+        "mode": "railAir",
+        "ready": true,
+        "bufferFor": 0.62,
+        "progress": 0.443,
+        "speed": 0,
+        "direction": 1,
+        "horizontalError": 0,
+        "verticalError": 0.658,
+        "capture": {
+          "source": "ground",
+          "at": 26.855090909090883,
+          "horizontal": 0,
+          "vertical": -0.16,
+          "progress": 0.28
+        },
+        "cameraClear": true,
+        "cameraBlock": null
+      }
+    },
+    "overlays": {
+      "menu": false,
+      "pause": false,
+      "death": false,
+      "results": false
+    },
+    "qaTrace": null
+  },
+  "railRejoin": {
+    "version": "Freeflow 9.0",
+    "mode": "combat",
+    "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+    "level": 1,
+    "clock": {
+      "game": 27.916,
+      "music": 8.202,
+      "deterministic": true,
+      "frames": 97
+    },
+    "player": {
+      "position": {
+        "x": 0.78,
+        "y": 0,
+        "z": 8
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "health": 6,
+      "maxHealth": 6,
+      "aura": 0.1,
+      "auraState": "LOW PROFILE",
+      "score": 3,
+      "combo": 0,
+      "momentum": {
+        "value": 0.94,
+        "state": "rail"
+      },
+      "attack": null,
+      "counterFor": 0,
+      "invulnerableFor": 0,
+      "target": null,
+      "animation": {
+        "key": "railGrind",
+        "previous": "idle",
+        "normalized": 0.071,
+        "weight": 1,
+        "timeScale": 1,
+        "transitionCount": 8,
+        "transitionReason": "play:railGrind",
+        "transitionAge": 0.1
+      },
+      "locomotion": {
+        "blendActive": false,
+        "forward": 0,
+        "side": 0,
+        "phase": 0,
+        "weights": {
+          "run": 1,
+          "left": 0,
+          "right": 0
+        },
+        "targetId": null
+      },
+      "jump": null,
+      "reaction": null,
+      "controls": {
+        "contextJump": "Space",
+        "jumpUpOnly": "Digit0 / Numpad0"
+      }
+    },
+    "director": {
+      "difficulty": "KNOWN NAME",
+      "beat": 16,
+      "squadNerve": 1,
+      "breathingFor": 0,
+      "threats": {
+        "melee": 0,
+        "ranged": 0
+      },
+      "primaryThreat": null
+    },
+    "encounter": {
+      "index": 0,
+      "name": "READ THE ROOM",
+      "active": true,
+      "living": 2
+    },
+    "runStats": {
+      "perfectHits": 0,
+      "perfectDodges": 0,
+      "damageTaken": 0,
+      "highestAura": 0.1,
+      "longestChain": 0
+    },
+    "enemies": [
+      {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -3.61,
+          "y": 0,
+          "z": -1.94
+        },
+        "distance": 10.87,
+        "hp": 3,
+        "stance": 2.5,
+        "state": "CHASE",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "run",
+        "reaction": null
+      },
+      {
+        "id": 1,
+        "role": "RUSHER",
+        "position": {
+          "x": 4.24,
+          "y": 0,
+          "z": -2.76
+        },
+        "distance": 11.3,
+        "hp": 3,
+        "stance": 2.5,
+        "state": "CHASE",
+        "intent": "PRESSURE",
+        "alerted": true,
+        "lineOfSight": true,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "run",
+        "reaction": null
+      }
+    ],
+    "traversal": {
+      "context": null,
+      "motion": null,
+      "rail": {
+        "progress": 0.535,
+        "speed": 6.4
+      },
+      "hang": null,
+      "cover": null,
+      "surface": null,
+      "carrying": false,
+      "seated": false,
+      "railController": {
+        "mode": "railGrind",
+        "ready": true,
+        "bufferFor": 0,
+        "progress": 0.535,
+        "speed": 6.4,
+        "direction": 1,
+        "horizontalError": 0,
+        "verticalError": -0.16,
+        "capture": {
+          "source": "rejoin",
+          "at": 27.799333333333323,
+          "horizontal": 0,
+          "vertical": -0.16,
+          "progress": 0.5013553719008353
+        },
+        "cameraClear": true,
+        "cameraBlock": null
+      }
+    },
+    "overlays": {
+      "menu": false,
+      "pause": false,
+      "death": false,
+      "results": false
+    },
+    "qaTrace": null
+  },
+  "air": {
+    "beforeE": {
+      "version": "Freeflow 9.0",
+      "mode": "combat",
+      "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+      "level": 1,
+      "clock": {
+        "game": 28.636,
+        "music": 8.922,
+        "deterministic": true,
+        "frames": 141
+      },
+      "player": {
+        "position": {
+          "x": 0,
+          "y": 0.94,
+          "z": 6.8
+        },
+        "forward": {
+          "x": 0.01,
+          "y": 0,
+          "z": -1
+        },
+        "health": 6,
+        "maxHealth": 6,
+        "aura": 0,
+        "auraState": "LOW PROFILE",
+        "score": 0,
+        "combo": 0,
+        "momentum": {
+          "value": 0.91,
+          "state": "traversal"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": null,
+        "animation": {
+          "key": "runJump",
+          "previous": "run",
+          "normalized": 0.356,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 11,
+          "transitionReason": "play:runJump",
+          "transitionAge": 0.32
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": 0.356,
+        "reaction": null,
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "director": {
+        "difficulty": "KNOWN NAME",
+        "beat": 17,
+        "squadNerve": 1,
+        "breathingFor": 0,
+        "threats": {
+          "melee": 0,
+          "ranged": 0
+        },
+        "primaryThreat": null
+      },
+      "encounter": {
+        "index": 0,
+        "name": "READ THE ROOM",
+        "active": true,
+        "living": 2
+      },
+      "runStats": {
+        "perfectHits": 0,
+        "perfectDodges": 0,
+        "damageTaken": 0,
+        "highestAura": 0,
+        "longestChain": 0
+      },
+      "enemies": [
+        {
+          "id": 0,
+          "role": "RUSHER",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          },
+          "distance": 11,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "IDLE",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "idle",
+          "reaction": null
+        },
+        {
+          "id": 1,
+          "role": "RUSHER",
+          "position": {
+            "x": 4.42,
+            "y": 0,
+            "z": -3.41
+          },
+          "distance": 11.13,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "WAIT",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "idle",
+          "reaction": null
+        }
+      ],
+      "traversal": {
+        "context": null,
+        "motion": "v9Jump",
+        "rail": null,
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "offRail",
+          "ready": true,
+          "bufferFor": 0,
+          "progress": 0.5,
+          "speed": 0,
+          "direction": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "horizontalError": 1.199,
+          "verticalError": 0.784,
+          "capture": {
+            "source": "rejoin",
+            "at": 27.799333333333323,
+            "horizontal": 0,
+            "vertical": -0.16,
+            "progress": 0.5013553719008353
+          },
+          "cameraClear": true,
+          "cameraBlock": null
+        }
+      },
+      "overlays": {
+        "menu": false,
+        "pause": false,
+        "death": false,
+        "results": false
+      },
+      "qaTrace": null
+    },
+    "catch": {
+      "version": "Freeflow 9.0",
+      "mode": "combat",
+      "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+      "level": 1,
+      "clock": {
+        "game": 29.066,
+        "music": 9.352,
+        "deterministic": true,
+        "frames": 167
+      },
+      "player": {
+        "position": {
+          "x": 0,
+          "y": 0.08,
+          "z": 7.98
+        },
+        "forward": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        "health": 6,
+        "maxHealth": 6,
+        "aura": 0,
+        "auraState": "LOW PROFILE",
+        "score": 0,
+        "combo": 0,
+        "momentum": {
+          "value": 0.94,
+          "state": "traversal"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": null,
+        "animation": {
+          "key": "railGrind",
+          "previous": "runJump",
+          "normalized": 0.118,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 12,
+          "transitionReason": "play:railGrind",
+          "transitionAge": 0.165
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": null,
+        "reaction": null,
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "director": {
+        "difficulty": "KNOWN NAME",
+        "beat": 18,
+        "squadNerve": 1,
+        "breathingFor": 0,
+        "threats": {
+          "melee": 0,
+          "ranged": 0
+        },
+        "primaryThreat": null
+      },
+      "encounter": {
+        "index": 0,
+        "name": "READ THE ROOM",
+        "active": true,
+        "living": 2
+      },
+      "runStats": {
+        "perfectHits": 0,
+        "perfectDodges": 0,
+        "damageTaken": 0,
+        "highestAura": 0,
+        "longestChain": 0
+      },
+      "enemies": [
+        {
+          "id": 0,
+          "role": "RUSHER",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          },
+          "distance": 12.06,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "IDLE",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "idle",
+          "reaction": null
+        },
+        {
+          "id": 1,
+          "role": "RUSHER",
+          "position": {
+            "x": 4.42,
+            "y": 0,
+            "z": -3.41
+          },
+          "distance": 12.22,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "WAIT",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "idle",
+          "reaction": null
+        }
+      ],
+      "traversal": {
+        "context": {
+          "type": "v9Rail",
+          "label": "[E] GRIND RAIL",
+          "score": 85.1,
+          "hangStyle": null,
+          "contactDirection": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          }
+        },
+        "motion": "v9RailReentry",
+        "rail": null,
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "railReentry",
+          "ready": true,
+          "bufferFor": 0.29,
+          "progress": 0.5,
+          "speed": 0,
+          "direction": 1,
+          "horizontalError": 0.024,
+          "verticalError": -0.083,
+          "capture": {
+            "source": "air",
+            "at": 28.900615384615335,
+            "horizontal": 0.42820029557703787,
+            "vertical": 0.7761959924678032,
+            "progress": 0.5
+          },
+          "cameraClear": true,
+          "cameraBlock": null
+        }
+      },
+      "overlays": {
+        "menu": false,
+        "pause": false,
+        "death": false,
+        "results": false
+      },
+      "qaTrace": null
+    },
+    "grind": {
+      "version": "Freeflow 9.0",
+      "mode": "combat",
+      "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+      "level": 1,
+      "clock": {
+        "game": 29.486,
+        "music": 9.772,
+        "deterministic": true,
+        "frames": 193
+      },
+      "player": {
+        "position": {
+          "x": 2.48,
+          "y": 0,
+          "z": 8
+        },
+        "forward": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        "health": 6,
+        "maxHealth": 6,
+        "aura": 0.3,
+        "auraState": "LOW PROFILE",
+        "score": 5,
+        "combo": 0,
+        "momentum": {
+          "value": 0.94,
+          "state": "rail"
+        },
+        "attack": null,
+        "counterFor": 0,
+        "invulnerableFor": 0,
+        "target": null,
+        "animation": {
+          "key": "railGrind",
+          "previous": "run",
+          "normalized": 0.265,
+          "weight": 1,
+          "timeScale": 1,
+          "transitionCount": 14,
+          "transitionReason": "play:railGrind",
+          "transitionAge": 0.372
+        },
+        "locomotion": {
+          "blendActive": false,
+          "forward": 0,
+          "side": 0,
+          "phase": 0,
+          "weights": {
+            "run": 1,
+            "left": 0,
+            "right": 0
+          },
+          "targetId": null
+        },
+        "jump": null,
+        "reaction": null,
+        "controls": {
+          "contextJump": "Space",
+          "jumpUpOnly": "Digit0 / Numpad0"
+        }
+      },
+      "director": {
+        "difficulty": "KNOWN NAME",
+        "beat": 19,
+        "squadNerve": 1,
+        "breathingFor": 0,
+        "threats": {
+          "melee": 0,
+          "ranged": 0
+        },
+        "primaryThreat": null
+      },
+      "encounter": {
+        "index": 0,
+        "name": "READ THE ROOM",
+        "active": true,
+        "living": 2
+      },
+      "runStats": {
+        "perfectHits": 0,
+        "perfectDodges": 0,
+        "damageTaken": 0,
+        "highestAura": 0.3,
+        "longestChain": 0
+      },
+      "enemies": [
+        {
+          "id": 0,
+          "role": "RUSHER",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          },
+          "distance": 13.3,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "IDLE",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "idle",
+          "reaction": null
+        },
+        {
+          "id": 1,
+          "role": "RUSHER",
+          "position": {
+            "x": 4.42,
+            "y": 0,
+            "z": -3.41
+          },
+          "distance": 11.57,
+          "hp": 3,
+          "stance": 2.5,
+          "state": "WAIT",
+          "intent": "PRESSURE",
+          "alerted": false,
+          "lineOfSight": false,
+          "scheduled": false,
+          "threat": null,
+          "lastWhiff": null,
+          "whiffFor": 0,
+          "animation": "idle",
+          "reaction": null
+        }
+      ],
+      "traversal": {
+        "context": null,
+        "motion": null,
+        "rail": {
+          "progress": 0.613,
+          "speed": 6.4
+        },
+        "hang": null,
+        "cover": null,
+        "surface": null,
+        "carrying": false,
+        "seated": false,
+        "railController": {
+          "mode": "railGrind",
+          "ready": true,
+          "bufferFor": 0,
+          "progress": 0.613,
+          "speed": 6.4,
+          "direction": 1,
+          "horizontalError": 0,
+          "verticalError": -0.16,
+          "capture": {
+            "source": "air",
+            "at": 29.098307692307657,
+            "horizontal": 0,
+            "vertical": -0.16,
+            "progress": 0.5
+          },
+          "cameraClear": true,
+          "cameraBlock": null
+        }
+      },
+      "overlays": {
+        "menu": false,
+        "pause": false,
+        "death": false,
+        "results": false
+      },
+      "qaTrace": null
+    }
+  },
+  "noInputLanding": {
+    "version": "Freeflow 9.0",
+    "mode": "combat",
+    "coordinates": "XZ is the ground plane, +Y is up, and yaw 0 faces -Z.",
+    "level": 1,
+    "clock": {
+      "game": 31.366,
+      "music": 11.652,
+      "deterministic": true,
+      "frames": 306
+    },
+    "player": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 8.08
+      },
+      "forward": {
+        "x": 0.01,
+        "y": 0,
+        "z": -1
+      },
+      "health": 6,
+      "maxHealth": 6,
+      "aura": 0,
+      "auraState": "LOW PROFILE",
+      "score": 0,
+      "combo": 0,
+      "momentum": {
+        "value": 0.02,
+        "state": "ground"
+      },
+      "attack": null,
+      "counterFor": 0,
+      "invulnerableFor": 0,
+      "target": null,
+      "animation": {
+        "key": "idle",
+        "previous": "landFeet",
+        "normalized": 0.013,
+        "weight": 0.735,
+        "timeScale": 1,
+        "transitionCount": 19,
+        "transitionReason": "play:idle",
+        "transitionAge": 0.132
+      },
+      "locomotion": {
+        "blendActive": false,
+        "forward": 0,
+        "side": 0,
+        "phase": 0,
+        "weights": {
+          "run": 1,
+          "left": 0,
+          "right": 0
+        },
+        "targetId": null
+      },
+      "jump": null,
+      "reaction": null,
+      "controls": {
+        "contextJump": "Space",
+        "jumpUpOnly": "Digit0 / Numpad0"
+      }
+    },
+    "director": {
+      "difficulty": "KNOWN NAME",
+      "beat": 1,
+      "squadNerve": 1,
+      "breathingFor": 0,
+      "threats": {
+        "melee": 0,
+        "ranged": 0
+      },
+      "primaryThreat": null
+    },
+    "encounter": {
+      "index": 0,
+      "name": "READ THE ROOM",
+      "active": true,
+      "living": 2
+    },
+    "runStats": {
+      "perfectHits": 0,
+      "perfectDodges": 0,
+      "damageTaken": 0,
+      "highestAura": 0,
+      "longestChain": 0
+    },
+    "enemies": [
+      {
+        "id": 0,
+        "role": "RUSHER",
+        "position": {
+          "x": -5,
+          "y": 0,
+          "z": -3
+        },
+        "distance": 12.16,
+        "hp": 3,
+        "stance": 2.5,
+        "state": "IDLE",
+        "intent": "PRESSURE",
+        "alerted": false,
+        "lineOfSight": false,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "idle",
+        "reaction": null
+      },
+      {
+        "id": 1,
+        "role": "RUSHER",
+        "position": {
+          "x": 4.41,
+          "y": 0,
+          "z": -3.41
+        },
+        "distance": 12.31,
+        "hp": 3,
+        "stance": 2.5,
+        "state": "WAIT",
+        "intent": "PRESSURE",
+        "alerted": false,
+        "lineOfSight": false,
+        "scheduled": false,
+        "threat": null,
+        "lastWhiff": null,
+        "whiffFor": 0,
+        "animation": "idle",
+        "reaction": null
+      }
+    ],
+    "traversal": {
+      "context": {
+        "type": "v9Rail",
+        "label": "[E] GRIND RAIL",
+        "score": 84.3,
+        "hangStyle": null,
+        "contactDirection": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        }
+      },
+      "motion": null,
+      "rail": null,
+      "hang": null,
+      "cover": null,
+      "surface": null,
+      "carrying": false,
+      "seated": false,
+      "railController": {
+        "mode": "offRail",
+        "ready": true,
+        "bufferFor": 0,
+        "progress": 0.5,
+        "speed": 0,
+        "direction": 0,
+        "horizontalError": 0.08,
+        "verticalError": -0.16,
+        "capture": {
+          "source": "air",
+          "at": 29.098307692307657,
+          "horizontal": 0,
+          "vertical": -0.16,
+          "progress": 0.5
+        },
+        "cameraClear": true,
+        "cameraBlock": null
+      }
+    },
+    "overlays": {
+      "menu": false,
+      "pause": false,
+      "death": false,
+      "results": false
+    },
+    "qaTrace": null
+  },
+  "strafeSweep": [
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.36,
+        "weight": 1,
+        "timeScale": 1,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.264
+      },
+      "locomotion": {
+        "blendActive": false,
+        "forward": 0,
+        "side": 0,
+        "phase": 0,
+        "weights": {
+          "run": 1,
+          "left": 0,
+          "right": 0
+        },
+        "targetId": null
+      }
+    },
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.485,
+        "weight": 0.934,
+        "timeScale": 0.91,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.364
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.514,
+        "side": 0.368,
+        "phase": 0.485,
+        "weights": {
+          "run": 0.934,
+          "left": 0,
+          "right": 0.066
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.609,
+        "weight": 0.867,
+        "timeScale": 0.91,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.464
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.789,
+        "side": 0.334,
+        "phase": 0.609,
+        "weights": {
+          "run": 0.867,
+          "left": 0,
+          "right": 0.133
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.733,
+        "weight": 0.938,
+        "timeScale": 0.91,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.564
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.922,
+        "side": 0.153,
+        "phase": 0.733,
+        "weights": {
+          "run": 0.938,
+          "left": 0,
+          "right": 0.062
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.856,
+        "weight": 0.977,
+        "timeScale": 0.91,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.664
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.959,
+        "side": -0.068,
+        "phase": 0.856,
+        "weights": {
+          "run": 0.977,
+          "left": 0,
+          "right": 0.023
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.98,
+        "weight": 0.966,
+        "timeScale": 0.91,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.764
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.929,
+        "side": -0.285,
+        "phase": 0.98,
+        "weights": {
+          "run": 0.966,
+          "left": 0.026,
+          "right": 0.008
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "run",
+        "previous": "idle",
+        "normalized": 0.104,
+        "weight": 0.773,
+        "timeScale": 0.91,
+        "transitionCount": 20,
+        "transitionReason": "play:run",
+        "transitionAge": 0.864
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.85,
+        "side": -0.481,
+        "phase": 0.104,
+        "weights": {
+          "run": 0.773,
+          "left": 0.224,
+          "right": 0.003
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "runStrafeLeft",
+        "previous": "run",
+        "normalized": 0.227,
+        "weight": 0.524,
+        "timeScale": 0.82,
+        "transitionCount": 21,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.734,
+        "side": -0.648,
+        "phase": 0.227,
+        "weights": {
+          "run": 0.475,
+          "left": 0.524,
+          "right": 0.001
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "runStrafeLeft",
+        "previous": "run",
+        "normalized": 0.351,
+        "weight": 0.779,
+        "timeScale": 0.82,
+        "transitionCount": 21,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.1
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.592,
+        "side": -0.782,
+        "phase": 0.351,
+        "weights": {
+          "run": 0.22,
+          "left": 0.779,
+          "right": 0
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "runStrafeLeft",
+        "previous": "run",
+        "normalized": 0.475,
+        "weight": 0.917,
+        "timeScale": 0.82,
+        "transitionCount": 21,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.2
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.43,
+        "side": -0.883,
+        "phase": 0.475,
+        "weights": {
+          "run": 0.083,
+          "left": 0.917,
+          "right": 0
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "runStrafeLeft",
+        "previous": "run",
+        "normalized": 0.598,
+        "weight": 0.97,
+        "timeScale": 0.82,
+        "transitionCount": 21,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.3
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.269,
+        "side": -0.947,
+        "phase": 0.598,
+        "weights": {
+          "run": 0.03,
+          "left": 0.97,
+          "right": 0
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "animation": {
+        "key": "runStrafeLeft",
+        "previous": "run",
+        "normalized": 0.722,
+        "weight": 0.989,
+        "timeScale": 0.82,
+        "transitionCount": 21,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.4
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.136,
+        "side": -0.979,
+        "phase": 0.722,
+        "weights": {
+          "run": 0.011,
+          "left": 0.989,
+          "right": 0
+        },
+        "targetId": 0
+      }
+    }
+  ],
+  "reversals": [
+    {
+      "key": "KeyD",
+      "animation": {
+        "key": "run",
+        "previous": "runStrafeLeft",
+        "normalized": 0.105,
+        "weight": 0.546,
+        "timeScale": 0.91,
+        "transitionCount": 24,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.094,
+        "side": 0.27,
+        "phase": 0.105,
+        "weights": {
+          "run": 0.546,
+          "left": 0.444,
+          "right": 0.01
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "key": "KeyA",
+      "animation": {
+        "key": "run",
+        "previous": "runStrafeLeft",
+        "normalized": 0.228,
+        "weight": 0.681,
+        "timeScale": 0.91,
+        "transitionCount": 24,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.1
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": 0.01,
+        "side": -0.531,
+        "phase": 0.228,
+        "weights": {
+          "run": 0.681,
+          "left": 0.316,
+          "right": 0.004
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "key": "KeyD",
+      "animation": {
+        "key": "run",
+        "previous": "runStrafeLeft",
+        "normalized": 0.352,
+        "weight": 0.802,
+        "timeScale": 0.91,
+        "transitionCount": 24,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.2
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.042,
+        "side": 0.435,
+        "phase": 0.352,
+        "weights": {
+          "run": 0.802,
+          "left": 0.123,
+          "right": 0.076
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "key": "KeyA",
+      "animation": {
+        "key": "run",
+        "previous": "runStrafeLeft",
+        "normalized": 0.476,
+        "weight": 0.827,
+        "timeScale": 0.91,
+        "transitionCount": 24,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.3
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": 0.031,
+        "side": -0.47,
+        "phase": 0.476,
+        "weights": {
+          "run": 0.827,
+          "left": 0.144,
+          "right": 0.029
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "key": "KeyD",
+      "animation": {
+        "key": "run",
+        "previous": "runStrafeLeft",
+        "normalized": 0.599,
+        "weight": 0.844,
+        "timeScale": 0.91,
+        "transitionCount": 24,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.4
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": -0.034,
+        "side": 0.457,
+        "phase": 0.599,
+        "weights": {
+          "run": 0.844,
+          "left": 0.056,
+          "right": 0.1
+        },
+        "targetId": 0
+      }
+    },
+    {
+      "key": "KeyA",
+      "animation": {
+        "key": "run",
+        "previous": "runStrafeLeft",
+        "normalized": 0.723,
+        "weight": 0.848,
+        "timeScale": 0.91,
+        "transitionCount": 24,
+        "transitionReason": "locomotion-blend",
+        "transitionAge": 0.5
+      },
+      "locomotion": {
+        "blendActive": true,
+        "forward": 0.034,
+        "side": -0.462,
+        "phase": 0.723,
+        "weights": {
+          "run": 0.848,
+          "left": 0.113,
+          "right": 0.039
+        },
+        "targetId": 0
+      }
+    }
+  ]
+}

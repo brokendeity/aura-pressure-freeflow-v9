@@ -1,0 +1,24 @@
+.DS_Store
+*.zip
+
+# Historical standalone builds are retained locally but are not part of this V9 release repository.
+aura_pressure_*.html
+!aura_pressure_freeflow_v9.html
+!aura_pressure_freeflow_v9_pre_animation_fix_2026-09-01.html
+
+# Keep only the final verification evidence for this release.
+output/*
+!output/v9-animation-fix-client/
+!output/v9-animation-fix-client/**
+!output/v9-animation-fix-qa/
+!output/v9-animation-fix-qa/**
+!output/v9-sol-qa/
+!output/v9-sol-qa/**
+
+# Retain only the QA scripts and action payloads used by the V9 release.
+tmp/*
+!tmp/v9_animation_fix_qa.mjs
+!tmp/v9_sol_qa.mjs
+!tmp/v9_corrective_actions.json
+!tmp/v9_file_open_actions.json
+!tmp/v9_motion_smoke_actions.json
