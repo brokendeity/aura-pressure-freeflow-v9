@@ -69,5 +69,4 @@ git lfs install
 
 ## Asset note
 
-This repository is intended as a private project archive. No open-source license or permission to redistribute included third-party animation/model assets is granted.
-
+This repository is a public project archive so external tools and collaborators can inspect the release. No open-source license or permission to redistribute included third-party animation/model assets is granted.
