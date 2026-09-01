@@ -2,6 +2,8 @@
 
 Verified standalone web-game release containing Aura Pressure Freeflow V9, its authored player animation packs, deterministic QA tools, and final browser evidence.
 
+For continuation in a new AI chat, start with [`HANDOVER_V9_PUBLIC_GITHUB_2026-09-01.md`](HANDOVER_V9_PUBLIC_GITHUB_2026-09-01.md). It contains the canonical files, verified status, resume commands, limitations, and a copy-ready starter prompt.
+
 ## Play
 
 The canonical build is `aura_pressure_freeflow_v9.html`.

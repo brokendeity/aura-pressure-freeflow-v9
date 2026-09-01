@@ -155,3 +155,9 @@ Original prompt: Take the most updated functional version in `/Users/richardmpay
 - Added Git LFS tracking for standalone HTML builds. GitHub received both exact 244 MB HTML objects (512 MB total) and the 38-file release manifest.
 - Initial verified release commit: `c739a3be9b973c002d58cda0647ca279d06e392b` (`Archive verified Aura Pressure Freeflow V9 release`).
 - Repository visibility is public so external tools such as Gemini and web ChatGPT can inspect the committed files by URL: `https://github.com/brokendeity/aura-pressure-freeflow-v9`.
+
+## 2026-09-01 — New-chat handover
+
+- Added `HANDOVER_V9_PUBLIC_GITHUB_2026-09-01.md` as the self-contained authority for a new chat.
+- It records the public repository/version, model-switch protocol, canonical files, completed animation fixes, final QA evidence, exact verification commands, known asset limitations, recommended combat-feel milestone, and a copy-ready starter prompt.
+- This handover supersedes older corrective/recovery handovers wherever they conflict. No game source changed in this documentation-only commit, so the previously passed focused/full/real-input QA baseline remains authoritative.
