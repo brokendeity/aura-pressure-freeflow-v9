@@ -147,3 +147,11 @@ Original prompt: Take the most updated functional version in `/Users/richardmpay
 - Full deterministic QA passed with zero errors and 67 loaded clips. It confirms zero prepared X/Z root range, 0.070 m maximum combat frame movement, all combat/traversal/reaction routes, stable paused hang poses, real rail hop/rejoin, and the keyboard-jump contract: `output/v9-sol-qa/report.json`.
 - Independent real-input menu → Level 1 → run → jump → landing smoke passed with no error artifact. Final state is active combat, `landFeet`, a live enemy jump-kick threat, rail clip ready, and camera clear: `output/v9-animation-fix-client/state-0.json` and `shot-0.png`.
 - Known asset limitation remains: no matching villain victim clip exists for a genuinely synchronized Flying Shoulder throw, so the implementation keeps the safe staged body-contact → launch reaction and does not claim a paired throw.
+
+## 2026-09-01 — Public GitHub release archive
+
+- Initialized the workspace as a Git repository with `main` as the release branch and created the GitHub repository `brokendeity/aura-pressure-freeflow-v9`.
+- Curated the repository around the current V9 release: canonical game, immediate recovery snapshot, all V9 animation packs, pack-building/QA tools, implementation reports, and final focused/full/real-input evidence. Historical 160–250 MB builds and redundant ZIP archives remain local and are intentionally excluded.
+- Added Git LFS tracking for standalone HTML builds. GitHub received both exact 244 MB HTML objects (512 MB total) and the 38-file release manifest.
+- Initial verified release commit: `c739a3be9b973c002d58cda0647ca279d06e392b` (`Archive verified Aura Pressure Freeflow V9 release`).
+- Repository visibility is public so external tools such as Gemini and web ChatGPT can inspect the committed files by URL: `https://github.com/brokendeity/aura-pressure-freeflow-v9`.
